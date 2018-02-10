@@ -1,0 +1,9 @@
+.Module {
+  width: 80%;
+  margin: 10px auto;
+  background-color: #ddd;
+  padding: 15px;
+  font-size: .8em;
+  border: 1px solid gray;
+  cursor: pointer;
+}

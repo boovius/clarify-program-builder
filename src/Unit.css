@@ -1,0 +1,17 @@
+.Unit-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  padding: 15px 0;
+  background-color: #660033;
+  color: #75a3a3;
+  text-transform: capitalize;
+}
+
+.Unit {
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+

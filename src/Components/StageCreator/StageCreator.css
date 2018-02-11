@@ -1,0 +1,34 @@
+.StageCreator {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+}
+
+img {
+  height: 50px;
+  cursor: pointer;
+}
+
+.StageCreator--open {
+  width: 100%;
+  border-top: 1px solid #ddd;
+  position: absolute;
+  z-index: 1000;
+  top: 60px;
+}
+
+.StageCreator--open > div {
+  height: 100%;
+}
+
+.StageCreator-arrowBar * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.StageCreator-body {
+  height: 100%;
+  background-color: yellow;
+}

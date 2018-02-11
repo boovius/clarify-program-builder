@@ -14,7 +14,7 @@
 .Module--full {
   width: 50vw;
   position: absolute;
-  z-index: 1000;
+  z-index: 100;
   text-align: left;
 }
 

@@ -32,3 +32,21 @@ img {
   height: 100%;
   background-color: yellow;
 }
+
+.sc-trans-enter {
+  opacity: 0.01;
+}
+
+.sc-trans-enter.sc-trans-enter-active {
+  opacity: 1;
+  transition: opacity 3000ms ease-in;
+}
+
+.sc-trans-leave {
+  opacity: 1;
+}
+
+.sc-trans-leave.sc-trans-leave-active {
+  opacity: 0.01;
+  transition: opacity 3000ms ease-in;
+}

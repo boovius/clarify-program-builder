@@ -3,6 +3,8 @@ import './StageCreator.css';
 import up from './arrow-up.png';
 import down from './arrow-down.png';
 
+import { CSSTransitionGroup } from 'react-transition-group'
+
 class StageCreator extends Component {
   constructor() {
     super();
@@ -109,7 +111,13 @@ class StageCreator extends Component {
         onMouseLeave={this._handleMouseLeave}
         onClick={this._handleAnywhereClick}
       >
-        {contents}
+        <CSSTransitionGroup
+          transitionName='sc-trans'
+          transitionEnterTimeout={3000}
+          transitionLeaveTimeout={3000}
+        >
+          {contents}
+        </CSSTransitionGroup>
       </div>
     )
   }

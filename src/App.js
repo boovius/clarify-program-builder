@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import AppLogo from './AppLogo.js'
-import UnitHeader from './UnitHeader.js'
+import AppLogo from './Components/AppLogo/AppLogo.js'
+import Unit from './Components/Unit/Unit.js'
 
 import units from './data';
 
@@ -14,7 +14,9 @@ class App extends Component {
           <AppLogo />
           <h1 className="App-title">Clairfy Builder</h1>
         </header>
-        <UnitHeader units={units} />
+        <div className='Units'>
+          {units.map((u,i) => <Unit key={i} unit={u} />)}
+        </div>
       </div>
     );
   }

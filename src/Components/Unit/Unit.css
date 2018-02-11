@@ -1,9 +1,4 @@
-.Unit-header {
-  display: flex;
-  justify-content: space-around;
-}
-
-.title {
+.Unit-title {
   padding: 15px 0;
   background-color: #660033;
   color: #75a3a3;

@@ -1,0 +1,30 @@
+.Module {
+  background-color: #ddd;
+  padding: 15px;
+  font-size: .8em;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.Module--collapsed{
+  margin: 10px auto;
+  width: 80%;
+}
+
+.Module--full {
+  width: 50vw;
+  position: absolute;
+  z-index: 1000;
+  text-align: left;
+}
+
+.Module--selected {
+  outline: 2px solid green;
+}
+
+.Module-title {
+  text-align: center;
+  text-transform: capitalize;
+  padding: 5px;
+}
+
